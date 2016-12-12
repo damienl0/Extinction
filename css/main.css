@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'signikaregular';
+    src: url('../fonts/signika-regular-webfont.woff2') format('woff2'),
+         url('../fonts/signika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('../fonts/butler_regular-webfont.woff2') format('woff2'),
+         url('../fonts/butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerlight';
+    src: url('../fonts/butler_light-webfont.woff2') format('woff2'),
+         url('../fonts/butler_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../dodo.jpg) repeat;
+    /*background-size: cover;*/
+}
+
+
+#wrapper {
+    width: 60%;
+    padding: 5%;
+    margin: 0 auto;
+    background-color: #00ffff;
+}  
+
+section {
+    margin: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    font-family: 'butlerlight', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1 {
+    font-family: 'signikaregular', serif;
+    text-align: center;
+   border-bottom: 3px solid #000;
+}
+
+h2 {
+    border-bottom: solid #000;
+    font-family: 'signikaregular', serif;
+}
+
+h3  {
+    border-top: 3px solid #000;
+    text-align: center;
+    font-family: 'signikaregular', serif;
+}
+
+div-container1 {
+    text-align: right;
+}
+
+.text-wrap {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.img-wrap {
+    float: left;
+    width: 50%;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
